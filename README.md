@@ -14,24 +14,23 @@ The Rule Engine project is designed to evaluate user eligibility based on dynami
 
 Here’s the folder structure of the project:
 
-RuleEngine/
-│
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   ├── api/                # Contains API classes for handling rules
-│   │   │   │   └── RuleApi.java
-│   │   │   ├── data/               # Contains data models
-│   │   │   │   └── Node.java
-│   │   │   ├── service/            # Contains service classes for rule evaluation
-│   │   │   │   └── RuleService.java
-│   │   │   └── MainClass.java       # Main entry point for the application
-│   │   └── resources/              # Resources like configuration files
-│   └── test/                       # Unit tests (if any)
-│       └── java/                   # Test classes
-│
-├── pom.xml                          # Maven configuration file
-└── README.md                        # Project documentation
+- **RuleEngine/**
+  - **src/**
+    - **main/**
+      - **java/**
+        - **api/**                (Contains API classes for handling rules)
+          - RuleApi.java
+        - **data/**               (Contains data models)
+          - Node.java
+        - **service/**            (Contains service classes for rule evaluation)
+          - RuleService.java
+        - MainClass.java          (Main entry point for the application)
+      - **resources/**            (Resources like configuration files)
+    - **test/**                  (Unit tests, if any)
+      - **java/**                (Test classes)
+  - pom.xml                      (Maven configuration file)
+  - README.md                    (Project documentation)
+
 
 
 ## Prerequisites
